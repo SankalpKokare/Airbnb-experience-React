@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Moirai+One&family=Poppins&display=swap");
+
+.Navbar--logo {
+  width: 82px;
+  height: 25px;
+  margin-left: 30px;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 4px rgb(230, 226, 226) solid;
+}
+
+.Maincontent--photoGrid {
+  width: 500px;
+  height: 300px;
+  display: flex;
+}
+
+.MainContent--container {
+  padding: 26px;
+  height: 475px;
+  border-bottom: 1px solid black;
+}
+
+.MainContent--text > h1 {
+  font-size: 36px;
+  margin: 0px;
+  font-family: "Moirai One", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+.MainContent--text > h3 {
+  font-size: 16px;
+  width: 320px;
+  font-family: "Moirai One", cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.MainContent--text {
+  margin: 25px;
+}
+.MainContent--imgContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.Card--container {
+  margin: 30px;
+  width: 176px;
+}
+.Card--thumbnail {
+  width: 176px;
+  height: 235px;
+}
+
+.Card--star {
+  width: 15px;
+  height: 13px;
+}
+p {
+  margin: 0px;
+}
+
+.app--cardList {
+  display: flex;
+  overflow: scroll;
+
+}
+.grey {
+  color: grey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card--textContent {
+  margin-top: 5px;
+}
