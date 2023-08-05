@@ -4,14 +4,14 @@ export default function Card(prop) {
   return (
     <div className="Card--container">
       <img
-        src={`src/assets/${prop.coverImg}`}
+        src={`/${prop.coverImg}`}
         alt="Thumbnail"
         className="Card--thumbnail"
       />
       <div className="card--textContent">
         <div className="card--stats">
           <img
-            src="src/assets/star.png"
+            src="/star.png"
             alt="Rating.png"
             className="Card--star"
           />
