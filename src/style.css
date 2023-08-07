@@ -8,20 +8,20 @@
 
 nav {
   height: 70px;
+  width: auto;
   display: flex;
   align-items: center;
   border-bottom: 4px rgb(230, 226, 226) solid;
 }
 
 .Maincontent--photoGrid {
-  width: 500px;
-  height: 300px;
-  display: flex;
+  width: min(90vw, 700px);
+  height: auto;
 }
 
 .MainContent--container {
   padding: 26px;
-  height: 475px;
+  height: auto;
   border-bottom: 1px solid black;
 }
 
@@ -34,7 +34,6 @@ nav {
 
 .MainContent--text > h3 {
   font-size: 16px;
-  width: 320px;
   font-family: "Moirai One", cursive;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -42,6 +41,7 @@ nav {
 
 .MainContent--text {
   margin: 25px;
+  width: min(70vw ,500px);
 }
 .MainContent--imgContainer {
   display: flex;
@@ -56,6 +56,7 @@ nav {
 .Card--thumbnail {
   width: 176px;
   height: 235px;
+  border-radius: 1em;
 }
 
 .Card--star {
@@ -69,7 +70,6 @@ p {
 .app--cardList {
   display: flex;
   overflow: scroll;
-
 }
 .grey {
   color: grey;
